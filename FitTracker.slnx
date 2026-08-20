@@ -1,9 +1,9 @@
 <Solution>
   <Folder Name="/BuildingBlocks/">
-    <Project Path="FitTracker.BuildingBlocks.Core/FitTracker.BuildingBlocks.Core.csproj" />
+    <Project Path="src/BuildingBlocks/FitTracker.BuildingBlocks.Core/FitTracker.BuildingBlocks.Core.csproj" />
   </Folder>
   <Folder Name="/Modules/" />
   <Folder Name="/Modules/Workouts/">
-    <Project Path="FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
+    <Project Path="src/Modules/Workouts/FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
   </Folder>
 </Solution>
