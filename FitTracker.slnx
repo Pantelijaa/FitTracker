@@ -4,6 +4,10 @@
     <Project Path="src/BuildingBlocks/FitTracker.BuildingBlocks.Infrastrucutre/FitTracker.BuildingBlocks.Infrastrucutre.csproj" Id="6e019a71-7971-44be-82b2-2c5955dec0a6" />
   </Folder>
   <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Chat/" />
+  <Folder Name="/Modules/Cooperation/" />
+  <Folder Name="/Modules/Exercises/" />
+  <Folder Name="/Modules/Stakeholders/" />
   <Folder Name="/Modules/Workouts/">
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
   </Folder>
