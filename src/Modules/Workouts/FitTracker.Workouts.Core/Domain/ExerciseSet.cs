@@ -9,10 +9,11 @@ namespace FitTracker.Workouts.Core.Domain
         public List<ExerciseSetSnapshot> ChangeHistory { get; private set; } = new();
 
         public ExerciseSet() { }
-        public ExerciseSet(int repetitions, float weight)
+        public ExerciseSet(int repetitions, float weight, List<ExerciseSetSnapshot> changeHistory)
         {
             Repetitions = repetitions;
             Weight = weight;
+            ChangeHistory = changeHistory;
         }
 
         public void Update(int repetitions, float weight)

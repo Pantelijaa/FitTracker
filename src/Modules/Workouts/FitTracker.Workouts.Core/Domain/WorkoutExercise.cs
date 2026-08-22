@@ -8,9 +8,10 @@ namespace FitTracker.Workouts.Core.Domain
         public List<ExerciseSet> Sets { get; private set; } = new();
 
         public WorkoutExercise() { }
-        public WorkoutExercise(int exerciseId)
+        public WorkoutExercise(int exerciseId, List<ExerciseSet> sets)
         {
             ExerciseId = exerciseId;
+            Sets = sets;
         }
     }
 }
