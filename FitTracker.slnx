@@ -9,6 +9,7 @@
   <Folder Name="/Modules/Exercises/" />
   <Folder Name="/Modules/Stakeholders/">
     <Project Path="src/Modules/Stakeholders/FitTracker.Stakeholders.Core/FitTracker.Stakeholders.Core.csproj" Id="4c57facc-2082-4824-b6e1-111d07bf2841" />
+    <Project Path="src/Modules/Stakeholders/FitTracker.Stakeholders.Infrastructure/FitTracker.Stakeholders.Infrastructure.csproj" Id="77156725-7e76-4d0c-8303-2b99c6e6ee8a" />
   </Folder>
   <Folder Name="/Modules/Workouts/">
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
