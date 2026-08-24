@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FitTracker.Stakeholders.Infrastructure.Database
 {
-    public class StakeholderContext : DbContext
+    public class StakeholdersContext : DbContext
     {
         public DbSet<Trainer> Trainers { get; set; }
         public DbSet<Trainee> Trainees { get; set; }
 
-        public StakeholderContext(DbContextOptions<StakeholderContext> options) : base(options)
+        public StakeholdersContext(DbContextOptions<StakeholdersContext> options) : base(options)
         {
         }
 

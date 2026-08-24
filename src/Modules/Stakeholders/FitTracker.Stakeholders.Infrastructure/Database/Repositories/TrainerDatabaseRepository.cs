@@ -7,7 +7,10 @@ using System.Text;
 
 namespace FitTracker.Stakeholders.Infrastructure.Database.Repositories
 {
-    public class TrainerDatabaseRepository : CrudDatabaseRepository<Trainer, int>, ITrainerRepository
+    public class TrainerDatabaseRepository : CrudDatabaseRepository<Trainer, StakeholdersContext>, ITrainerRepository
     {
+        public TrainerDatabaseRepository(StakeholdersContext context) : base(context)
+        {
+        }
     }
 }
