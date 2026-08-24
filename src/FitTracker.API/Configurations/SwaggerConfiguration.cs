@@ -6,7 +6,7 @@ namespace FitTracker.API.Configurations
     {
         public static IServiceCollection ConfigureSwagger(this IServiceCollection services, IConfiguration configuration)
         {
-            var contactAdress = configuration.GetValue<string>("url");
+            var contactAdress = configuration.GetValue<string>("ContactUrl");
 
             services.AddSwaggerGen(options =>
             {
