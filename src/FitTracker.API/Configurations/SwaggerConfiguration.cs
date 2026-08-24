@@ -17,7 +17,7 @@ namespace FitTracker.API.Configurations
                     Description = "API for FitTracker application",
                     Contact = new OpenApiContact
                     {
-                        Name = "FitTracker Team",
+                        Name = "FitTracker Github",
                         Url = new Uri(contactAdress)
                     }
                 });
