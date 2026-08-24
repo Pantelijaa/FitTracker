@@ -15,5 +15,5 @@
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Infrastructure/FitTracker.Workouts.Infrastructure.csproj" Id="0b43bf84-fd45-485b-b087-440a4eeee326" />
   </Folder>
-  <Project Path="src/FitTracker.API/FitTracker.API/FitTracker.API.csproj" Id="0f6b7058-6e6c-4f47-a3fc-9b38dacb9e37" />
+  <Project Path="src/FitTracker.API/FitTracker.API.csproj" />
 </Solution>
