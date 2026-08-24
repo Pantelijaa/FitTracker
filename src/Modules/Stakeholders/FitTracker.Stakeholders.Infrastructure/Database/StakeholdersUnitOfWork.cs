@@ -6,9 +6,9 @@ using System.Text;
 
 namespace FitTracker.Stakeholders.Infrastructure.Database
 {
-    public class StakeholderUnitOfWork : UnitOfWork<StakeholdersContext>, IStakeholderUnitOfWork
+    public class StakeholdersUnitOfWork : UnitOfWork<StakeholdersContext>, IStakeholderUnitOfWork
     {
-        public StakeholderUnitOfWork(StakeholdersContext context) : base(context)
+        public StakeholdersUnitOfWork(StakeholdersContext context) : base(context)
         {
         }
     }

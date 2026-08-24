@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\..\BuildingBlocks\FitTracker.BuildingBlocks.Core\FitTracker.BuildingBlocks.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Domain\RepositoryInterfaces\" />
+  </ItemGroup>
+
 </Project>
