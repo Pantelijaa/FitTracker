@@ -11,6 +11,7 @@ public interface ICrudRepository<TEntity> where TEntity : Entity
     List<TEntity> CreateMany(List<TEntity> entities);
 
     TEntity Update(TEntity entity);
+    TEntity UpdateWithAssociatedEntities(TEntity entity);
 
     void Delete(TEntity entity);
 }

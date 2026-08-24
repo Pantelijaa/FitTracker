@@ -47,6 +47,21 @@ namespace FitTracker.BuildingBlocks.Core.UseCases
             return savedResult.IsFailed ? savedResult : MapToDto(result);
         }
 
+        public virtual Result<TDto> UpdateWithAssociatedEntities(TDomain entity)
+        {
+            try
+            {
+                CrudRepository.UpdateWithAssociatedEntities(entity);
+            }
+            catch (Exception ex)
+            {
+                return Result.Fail(FailureCode.Conflict).WithError(ex.Message);
+            }
+            var savedResult = UnitOfWork.Save();
+            return savedResult.IsFailed ? savedResult : MapToDto(entity);
+
+        }
+
         public virtual Result Delete(int id)
         {
             var entity = CrudRepository.Get(id);
