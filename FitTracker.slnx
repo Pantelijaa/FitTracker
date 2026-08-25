@@ -12,6 +12,7 @@
     <Project Path="src/Modules/Stakeholders/FitTracker.Stakeholders.Infrastructure/FitTracker.Stakeholders.Infrastructure.csproj" Id="77156725-7e76-4d0c-8303-2b99c6e6ee8a" />
   </Folder>
   <Folder Name="/Modules/Workouts/">
+    <Project Path="src/Modules/Workouts/FitTracker.Workouts.API/FitTracker.Workouts.API.csproj" Id="65af6062-bc7b-45f8-9608-2e2ebdcce617" />
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Core/FitTracker.Workouts.Core.csproj" />
     <Project Path="src/Modules/Workouts/FitTracker.Workouts.Infrastructure/FitTracker.Workouts.Infrastructure.csproj" Id="0b43bf84-fd45-485b-b087-440a4eeee326" />
   </Folder>
