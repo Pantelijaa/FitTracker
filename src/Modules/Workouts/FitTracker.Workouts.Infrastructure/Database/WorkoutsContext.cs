@@ -8,6 +8,9 @@ namespace FitTracker.Workouts.Infrastructure.Database
 {
     public class WorkoutsContext : DbContext
     {
+
+        public DbSet<Workout> Workouts { get; set; }
+
         public WorkoutsContext(DbContextOptions<WorkoutsContext> options) : base(options)
         {
         }

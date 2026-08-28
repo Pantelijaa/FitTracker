@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\FitTracker.BuildingBlocks.Core\FitTracker.BuildingBlocks.Core.csproj" />
+    <ProjectReference Include="..\FitTracker.Workouts.API\FitTracker.Workouts.API.csproj" />
   </ItemGroup>
 
 </Project>
