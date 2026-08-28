@@ -6,7 +6,6 @@ namespace FitTracker.Workouts.Core.Mappers
 {
     public class WorkoutProfile : Profile
     {
-
         public WorkoutProfile()
         {
             CreateMap<Workout, WorkoutDto>().ReverseMap();

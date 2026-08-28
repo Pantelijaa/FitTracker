@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Modules\Stakeholders\FitTracker.Stakeholders.Infrastructure\FitTracker.Stakeholders.Infrastructure.csproj" />
     <ProjectReference Include="..\Modules\Workouts\FitTracker.Workouts.Infrastructure\FitTracker.Workouts.Infrastructure.csproj" />
   </ItemGroup>
