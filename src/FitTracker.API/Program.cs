@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, config) => config.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.AddControllers();
+builder.Services.ConfigureModules();
 builder.Services.ConfigureSwagger(builder.Configuration);
 const string corsPolicy = "_corsPolicy";
 
