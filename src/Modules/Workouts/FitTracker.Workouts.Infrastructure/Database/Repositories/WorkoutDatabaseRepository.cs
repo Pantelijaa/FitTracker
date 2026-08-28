@@ -29,7 +29,7 @@ namespace FitTracker.Workouts.Infrastructure.Database.Repositories
                 .ToList();
         }
 
-        public List<Workout> GetByTraineeInRange(int traineeId, DateOnly start, DateOnly end)
+        public List<Workout> GetByTraineeInRangeWithExercises(int traineeId, DateOnly start, DateOnly end)
         {
             return DbContext.Workouts
                 .Include(w => w.Exercises)
