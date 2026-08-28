@@ -14,6 +14,11 @@ namespace FitTracker.API.Controllers
             _workoutService = workoutService;
         }
 
-        [HttpGet("calendar")]
+        [HttpGet("trainee/{traineeId}/calendar/{year}/{month}")]
+        public ActionResult GetCalendar(int traineeId, int year, int month)
+        {
+            var result = _workoutService.GetCalendar(traineeId, year, month);
+            return CreateResponse(result);
+        }
     }
 }

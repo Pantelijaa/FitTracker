@@ -55,4 +55,5 @@ namespace FitTracker.API.Controllers
         {
             return result.IsSuccess ? Ok(result.Value) : CreateErrorResponse(result.Errors);
         }
+    }
 }
